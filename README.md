@@ -11,6 +11,6 @@ This is a button that when triggered asks you for a temperature in fahrenheit. W
 #### [Converting Array into List (HTML; JS)](https://github.com/helenism/helenism-doodles/blob/master/array-project.html)
 A shopping list was written as an array and then converted into a list using JavaScript.
 
-<hr>
+#
 
 Developed by [@_helenism](https://twitter.com/_helenism)
