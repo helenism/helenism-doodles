@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Make Things Disappear</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    p {
+      background: rgba(92, 201, 245, 1.00);
+      width: 50%;
+      padding: 5px;
+      text-align: justify;
+    }
+
+    button {
+      position: absolute;
+      top: 70px;
+    }
+
+    .disappear {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <p>I am a paragraph that needs to dissapear. <br>Click the switch to make me disappear and reappear.</p>
+  <button type="button" id="switch">Switch</button>
+  <script>
+    $('#switch').on('click', function() {
+      $('p').toggleClass('disappear');
+    });
+  </script>
+</body>
+
+</html>
