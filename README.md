@@ -5,7 +5,7 @@ These are very small doodles of code I wrote that I want to preserve for future 
 #### [Q&A Conversation Program - Python](https://github.com/helenism/helenism-doodles/blob/master/conversation-program.py)
 Making use of arguement variables and if/else statements, I wrote a python program which asks the user questions based on their previous answer and then summarises the information to the user. To run this program:
 1. type <code>python</code> on your command line and add a space.
-2. paste the file path, add a space and type your name.
+2. paste the file path to the code, add a space and type your name.
 3. Press enter and the program will run.
 
 For example:
